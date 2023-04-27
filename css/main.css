@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header .navbar {
+  max-width: 100%;
+  background-color: #000;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .navbar__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+header .navbar .navbar__wrapper a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header .navbar .navbar__wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: 100px;
+}
+
+header .navbar .navbar__wrapper ul a {
+  text-decoration: none;
+  color: #bdbcbc;
+  font-weight: 500;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header .navbar .navbar__wrapper ul a:hover {
+  color: #fff;
+}
+
+header .navbar .navbar__wrapper .call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  margin-left: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #2d2ddf;
+  border-radius: 20px;
+}
+
+header .navbar .navbar__wrapper .call:hover {
+  background-color: #4343fa;
+}
+
+header .hero {
+  background-image: url(../../images/home__hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 80vh;
+  max-width: 100%;
+}
+
+header .hero .hero__section h2 {
+  text-align: center;
+  padding-top: 180px;
+  font-weight: 700;
+}
+
+header .hero .hero__section p {
+  text-align: center;
+  font-weight: 500;
+  font-size: x-large;
+  padding-top: 30px;
+}
+/*# sourceMappingURL=main.css.map */
