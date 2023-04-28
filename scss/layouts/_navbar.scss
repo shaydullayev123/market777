@@ -12,7 +12,7 @@ header {
         text-decoration: none;
         color: #fff;
       }
-      ul {
+      .navbar-nav {
         display: flex;
         align-items: center;
         gap: 32px;
@@ -20,7 +20,7 @@ header {
         margin-bottom: 0;
         margin-left: 100px;
 
-        a {
+        .nav-link {
           text-decoration: none;
           color: #bdbcbc;
           font-weight: 500;
@@ -28,7 +28,7 @@ header {
           transition: all 0.3s ease;
 
           &:hover {
-            color: #fff;
+            color: #fff!important;
           }
         }
       }
@@ -68,5 +68,11 @@ header {
         padding-top: 30px;
       }
     }
+  }
+}
+
+@media (max-width:767px) {
+  .hero{
+    min-height: 20vh!important;
   }
 }
